@@ -1,0 +1,14 @@
+bash run.sh ORPO unsloth/mistral-7b-instruct-v0.3-bnb-4bit 2d89e41e338d53e278455b87d5d8a4cd6b5439e7
+./wandb/run-20240531_173355-ggffcqo5/logs
+
+bash run.sh DPO unsloth/mistral-7b-instruct-v0.3-bnb-4bit 2d89e41e338d53e278455b87d5d8a4cd6b5439e7
+./wandb/run-20240531_173225-sbn3b6pc/logs
+
+bash run.sh DPO unsloth/llama-3-8b-Instruct-bnb-4bit 2d89e41e338d53e278455b87d5d8a4cd6b5439e7
+./wandb/run-20240531_222337-mm8s4lza/logs
+
+bash run.sh ORPO unsloth/llama-3-8b-Instruct-bnb-4bit 2d89e41e338d53e278455b87d5d8a4cd6b5439e7
+./wandb/run-20240601_010512-xqtjmtdk/logs
+
+bash run.sh DPO unsloth/llama-3-8b-bnb-4bit 2d89e41e338d53e278455b87d5d8a4cd6b5439e7 --num_epochs 3 --beta 0.5
+./wandb/run-20240601_103850-1v84ocxy/logs

@@ -1,0 +1,13 @@
+trl
+peft
+accelerate
+bitsandbytes
+huggingface-hub
+safetensors
+transformers
+datasets
+pillow
+pyparsing
+tqdm
+packaging
+wandb

@@ -1,0 +1,7 @@
+trl
+peft
+accelerate
+bitsandbytes
+tqdm
+packaging
+wandb
